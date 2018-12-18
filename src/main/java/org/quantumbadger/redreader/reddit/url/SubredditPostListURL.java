@@ -32,7 +32,7 @@ import java.util.List;
 public class SubredditPostListURL extends PostListingURL {
 
 	public static SubredditPostListURL getFrontPage() {
-		return new SubredditPostListURL(Type.FRONTPAGE, null, null, null, null, null);
+		return new SubredditPostListURL(Type.RANDOM, "labrats+DataHoarder+LineageOS+chromeos+homelab+k12sysadmin+kodi+raspberry_pi+sysadmin", null, null, null, null);
 	}
 
 	public static SubredditPostListURL getPopular() {
@@ -40,7 +40,7 @@ public class SubredditPostListURL extends PostListingURL {
 	}
 
 	public static SubredditPostListURL getRandom() {
-		return new SubredditPostListURL(Type.RANDOM, "random", null, null, null, null);
+		return new SubredditPostListURL(Type.RANDOM, "labrats+DataHoarder+LineageOS+chromeos+homelab+k12sysadmin+kodi+raspberry_pi+sysadmin", null, null, null, null);
 	}
 
 	public static SubredditPostListURL getRandomNsfw() {
@@ -48,7 +48,7 @@ public class SubredditPostListURL extends PostListingURL {
 	}
 
 	public static SubredditPostListURL getAll() {
-		return new SubredditPostListURL(Type.ALL, null, null, null, null, null);
+		return new SubredditPostListURL(Type.RANDOM, "labrats+DataHoarder+LineageOS+chromeos+homelab+k12sysadmin+kodi+raspberry_pi+sysadmin", null, null, null, null);
 	}
 
 	public static RedditURLParser.RedditURL getSubreddit(String subreddit) throws RedditSubreddit.InvalidSubredditNameException {
