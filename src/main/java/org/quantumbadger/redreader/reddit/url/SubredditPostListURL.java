@@ -32,7 +32,7 @@ import java.util.List;
 public class SubredditPostListURL extends PostListingURL {
 
 	public static SubredditPostListURL getFrontPage() {
-		return new SubredditPostListURL(Type.RANDOM, "labrats+DataHoarder+LineageOS+chromeos+homelab+k12sysadmin+kodi+raspberry_pi+sysadmin", null, null, null, null);
+		return new SubredditPostListURL(Type.RANDOM, "zerotier+labrats+DataHoarder+LineageOS+chromeos+homelab+k12sysadmin+kodi+raspberry_pi+sysadmin", null, null, null, null);
 	}
 
 	public static SubredditPostListURL getPopular() {
